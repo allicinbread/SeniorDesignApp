@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inputlabellayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputActivityLabel">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="407dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="228dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/scrollviewlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/labelbutton1"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Walking"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton2"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Running"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton3"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Sitting"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton4"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Eating"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton5"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Swimming"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton6"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Writing"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton7"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Sleeping"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton8"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Resting"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/labelbutton9"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/longbuttonbg"
+                android:text="Driving"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="317dp"
+        android:layout_height="101dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="40dp"
+        android:text="What activity are you doing?"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/addlabel"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginLeft="316dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/addlabelicon"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/enternewlabel"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="156dp"
+        android:background="@drawable/enternewlabel"
+        android:gravity="center"
+        android:hint="@string/enter_new_label"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/areyousure"
+        android:layout_width="365dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="485dp"
+        android:hint="@string/areyousure"
+        android:lineSpacingExtra="2sp"
+        android:textSize="23dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lineHeight="22dp" />
+
+    <TextView
+        android:id="@+id/selectedlabelhere"
+        android:layout_width="278dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="530dp"
+        android:gravity="center"
+        android:hint="@string/selectedlabelhere"
+        android:textSize="18dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/writelabel"
+        android:layout_width="77dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="540dp"
+        android:background="@drawable/writetodbbutton"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
