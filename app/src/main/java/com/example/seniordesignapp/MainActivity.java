@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
         viewbodytemp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(MainActivity.this, ViewBodyTemp.class);
+                Intent i = new Intent(MainActivity.this, BluetoothTemp.class);
                 startActivity(i);
             }
         });

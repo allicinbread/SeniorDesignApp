@@ -3,4 +3,5 @@
     <string name="enter_new_label">Enter New Label</string>
     <string name="selectedlabelhere">Selected Label Here</string>
     <string name="areyousure">Are you sure you want to choose this label?</string>
+    <string name="title_activity_bluetooth_temp">BluetoothTemp</string>
 </resources>
