@@ -16,8 +16,8 @@ The code for the bluetooth feature is being integrated into the initial applicat
 
 Research Goals that sponsor asked for was to look in graphing libraries and potentially build a graphing functionality. (Doesn't need to be integrated in the application)
 
-4/7/30
+4/7/30 - 8:00 AM
 The code for the bluetooth feature was moved to the main application but hasnt been commited to the repo yet because I need to write the write to database functionality into it. It will be completed by next week. Main progress this week was filming for the presentation, refilming after Dr. Nowka's feedback and researching graphing libraries for this Thursday meeting with our sponsor. I found a total of 4 graphing libraries that I will talk to them about thursday.
 
-4/14/20 
+4/14/20 - 11:50 PM
 The code for the bluetooth feature was completely moved to the main application and has been commited to the repo. Main progress for this week has been finalizing the code and also working on the poster. As of today, the readme for the simple bluetooth repo has been moved to the Senior design application repo as the development has been finished. 
