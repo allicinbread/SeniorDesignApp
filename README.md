@@ -8,6 +8,17 @@ Due to the code that was written on the Arduino, the transmission frequency was 
 on the application. 
 Changes are being made to the Arduino code before they can be made to the Android receiver code.
 
+--------------------------------------------------------------------------------------------
+DownloadRun Instructions:
+1. Click Clone or download and click zip file
+2. Unzip the files and have all of them stored in a folder
+3. Download Android studio - https://developer.android.com/studio/install
+4. Open Android Studio and navigate to the folder you downloaded all the files
+5. There should be a file called "SeniorDesignApp" with the android studio logo that you will be able to open
+6. After opening the file you can connect your android device to your computer or install an AVD Manager then press run to run the application
+
+--------------------------------------------------------------------------------------------
+
 3/24/20 - 11:08 PM 
 As of right now, the code is 100% functional, and can read temperature being sent from the Arduino with a delay of 10 sec, will be changed in final application to 30 second delay. 
 
