@@ -32,3 +32,6 @@ The code for the bluetooth feature was moved to the main application but hasnt b
 
 4/14/20 - 11:50 PM
 The code for the bluetooth feature was completely moved to the main application and has been commited to the repo. Main progress for this week has been finalizing the code and also working on the poster. As of today, the readme for the simple bluetooth repo has been moved to the Senior design application repo as the development has been finished. 
+
+4/22/20 - 1:01 AM 
+This week there was no coding updates, work was done completing and finalizing the presentaiton after feedback. We have also been working on our final report which is due soon as well. 
